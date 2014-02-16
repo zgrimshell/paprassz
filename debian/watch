@@ -1,0 +1,3 @@
+version=3
+http://www.bipede.fr/contrib/uploads/logiciels/paprass-(.*)\.tar.gz \
+  debian uupdate

@@ -1,0 +1,1 @@
+Résolution de divers bugs empêchant la numérisation lorsque sane détecte plusieurs matériels.

@@ -1,0 +1,11 @@
+--- a/paprass.py
++++ b/paprass.py
+@@ -3589,7 +3589,7 @@
+ GLOBVAR = GlobalVar()
+ CONFIG = Config()
+ SCANVAR = ScanVar()
+-GLOBVAR.themedir = os.path.join(GLOBVAR.appdir, "themes", CONFIG.GetTheme())
++GLOBVAR.themedir = os.path.join("/usr/share/paprass/themes", CONFIG.GetTheme())
+ GLOBVAR.visupdf = CONFIG.GetViewer()
+ GLOBVAR.base = CONFIG.GetBase()
+ SCANVAR.SetDevice(CONFIG.GetDevice())

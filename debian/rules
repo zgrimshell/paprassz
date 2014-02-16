@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	mv debian/paprass/usr/bin/paprass.py debian/paprass/usr/bin/paprass
+	chmod a-x debian/paprass/usr/share/paprass/themes/tangerine/type.png
+	chmod a-x debian/paprass/usr/share/paprass/themes/chocolate/ajouter.png

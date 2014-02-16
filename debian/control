@@ -1,0 +1,15 @@
+Source: paprass
+Section: graphics
+Priority: extra
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 9)
+Maintainer: Zlatan Todoric <zlatan.todoric@gmail.com>
+Homepage: http://www.bipede.fr/contrib/index.php?page=paprass-downloads
+
+Package: paprass
+Architecture: all
+Depends: python-wxgtk2.8, python-imaging-sane, python-reportlab, python, ${misc:Depends}
+Description: Manager of electronic documents
+ Pap'rass is an application that will interface with your
+ scanner to save documents and index, annotate, classify,
+ and search them.

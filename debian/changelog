@@ -1,0 +1,28 @@
+paprass (2.06-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Zlatan Todoric <zlatan.todoric@gmail.com>  Thu, 12 Apr 2012 16:33:16 +0200
+
+paprass (2.05-3) unstable; urgency=low
+
+  * debian/rules: Converted to use dh 9.
+  * debian/watch: New file.
+  * debian/control: Added Homepage.
+  * debian/paprass.manpages: Install paprass.1 man page.
+  * debian/compat: Switch to debhelper compatibility level 9.
+  * debian/paprass.install: New file, replacing commands in debian/rules.
+
+ -- Zlatan Todoric <zlatan.todoric@gmail.com>  Sun, 08 Apr 2012 14:46:41 +0200
+
+paprass (2.05-2) unstable; urgency=low
+
+  * Change in maintainer. 
+
+ -- Zlatan Todoric <zlatan.todoric@gmail.com>  Mon, 24 Oct 2011 13:59:56 +0200
+
+paprass (2.05-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Clint Adams <clint@debian.org>  Tue, 03 May 2011 12:01:18 -0400

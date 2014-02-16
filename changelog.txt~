@@ -1,0 +1,1 @@
+Résolution d'un bug bloquant le module de numérisation lorsque plusieurs matériels sont reconnus par sane au moment de la récupération de la configuration en cours.

@@ -1,0 +1,11 @@
+--- a/paprass.py
++++ b/paprass.py
+@@ -778,7 +778,7 @@
+         copSizer.Fit(copyright)
+         copyright.SetAutoLayout(True)
+         ntbook.AddPage(copyright, u"Copyright")
+-        licence = MonAffichTexte(ntbook, os.path.join(GLOBVAR.appdir, "licence", "GNU_GENERAL_LICENCE.txt"))
++        licence = MonAffichTexte(ntbook, "/usr/share/common-licenses/GPL-2")
+         ntbook.AddPage(licence, u"licence")
+         sizer.Add(ntbook, 1, flag=wx.EXPAND)
+         sizerbouton = self.CreateButtonSizer(wx.OK)
